@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# pytest
+.pytest_cache/
+report.html
+screenshots/
+
+# Environment variables / secrets (if you ever add a .env file for
+# AGRIBOT_TEST_USERNAME / AGRIBOT_TEST_PASSWORD instead of exporting them)
+.env
+
+# Editor/OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Selenium driver logs, if any get generated locally
+*.log
