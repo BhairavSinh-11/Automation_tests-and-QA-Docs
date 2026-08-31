@@ -83,6 +83,11 @@ test that fails, so failures are easy to diagnose at a glance.
 - **Setup/teardown** — a fresh, isolated browser session is created for
   every test and closed afterward automatically, whether the test
   passes or fails.
+
+
+  Known Limitations
+
+AgriBot is hosted on an AWS EC2 instance. Since this is a personal deployment rather than a production environment with high-availability infrastructure, the site may occasionally be temporarily unreachable (e.g. during instance restarts or maintenance). If a test run fails with a connection error rather than an assertion failure, check that the site is reachable at agribot.sbs before assuming the test itself is broken.
 - **Authenticated tests** use a `logged_in_driver` fixture that signs in
   with a test account before the test runs, so individual tests don't
   need to repeat login steps.
