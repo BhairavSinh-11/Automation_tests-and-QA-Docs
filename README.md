@@ -1,7 +1,7 @@
 # AgriBot Automated Test Suite
 
 Automated Selenium test scripts for **AgriBot** ([agribot.sbs](https://agribot.sbs)),
-a smart agriculture platform. Built with **Python, Selenium WebDriver, and pytest**,
+a smart agriculture platform which was My own Project. Built with **Python, Selenium WebDriver, and pytest**,
 following the Page Object Model (POM) design pattern.
 
 ## What This Tests
