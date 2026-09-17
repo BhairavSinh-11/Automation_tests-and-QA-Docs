@@ -31,9 +31,9 @@ agribot_automation/
 │   └── home_page.py
 ├── QA Docs/        
 │   ├── Performance Testing Using Jmeter/        #Performace testing Docs Using Jmeter
-        ├── agribot_load_test.jmx
-        └── AgriBot_Performance_Testing_Report
-        ├── README_JMeter
+    |    ├── agribot_load_test.jmx
+    |    └── AgriBot_Performance_Testing_Report
+    |    ├── README_JMeter
 │   ├── Agribot_Regression_Testing_Suite
 │   └── Bug_Tracking_and_Analysis_Report
 |   ├── README_QA_Docs
