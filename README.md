@@ -94,7 +94,7 @@ test that fails, so failures are easy to diagnose at a glance.
   every test and closed afterward automatically, whether the test
   passes or fails.
 
-  ## Added QA Docs
+## Added QA Docs
 
 - **Setup/teardown** — Which includes Performace testing, Test case & Test Plan, Bug tracking & Analysis Report and Exploratory Report(on Shopease - A Hypothetical Ecommerce Site)
 
