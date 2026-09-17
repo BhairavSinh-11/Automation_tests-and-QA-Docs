@@ -29,6 +29,16 @@ agribot_automation/
 │   ├── login_page.py
 │   ├── registration_page.py
 │   └── home_page.py
+├── QA Docs/        
+│   ├── Performance Testing Using Jmeter/        #Performace testing Docs Using Jmeter
+        ├── agribot_load_test.jmx
+        └── AgriBot_Performance_Testing_Report
+        ├── README_JMeter
+│   ├── Agribot_Regression_Testing_Suite
+│   └── Bug_Tracking_and_Analysis_Report
+|   ├── README_QA_Docs
+│   └── ShopEase_Exploratory_Testing and Bug Report
+│   └── ShopEase_Test_Plan_and_Test_Cases
 └── tests/
     ├── conftest.py          # Shared setup/teardown (browser fixtures)
     ├── test_login.py
@@ -83,6 +93,10 @@ test that fails, so failures are easy to diagnose at a glance.
 - **Setup/teardown** — a fresh, isolated browser session is created for
   every test and closed afterward automatically, whether the test
   passes or fails.
+
+  ## Added QA Docs
+
+- **Setup/teardown** — Which includes Performace testing, Test case & Test Plan, Bug tracking & Analysis Report and Exploratory Report(on Shopease - A Hypothetical Ecommerce Site)
 
 
 ## KNOWN LIMITATION
